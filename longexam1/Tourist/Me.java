@@ -25,6 +25,7 @@ public class Me implements Tourist {
         // Define your visit
         if (Me.budget >= boracay.getAirfare()) {
             System.out.println("Welcome to Boracay!");
+            System.out.println("Enjoy your stay! <3");
             budget -= boracay.getAirfare();
         } else {
             System.out.println("You don't have enough budget. kawawa ka naman </3");
@@ -39,7 +40,8 @@ public class Me implements Tourist {
 
         // Define your visit
         if (Me.budget >= batangas.getAirfare()) {
-            System.out.println("Welcome to Batangas! Ala eh!");
+            System.out.println("Welcome to Batangas!");
+            System.out.println("Enjoy your stay! <3");
             budget -= batangas.getAirfare();
         } else {
             System.out.println("You don't have enough budget. kawawa ka naman </3");
@@ -54,7 +56,8 @@ public class Me implements Tourist {
 
         // Define your visit
         if (Me.budget >= palawan.getAirfare()) {
-            System.out.println("Welcome to Palawan! Cuz' why not?");
+            System.out.println("Welcome to Palawan!");
+            System.out.println("Enjoy your stay! <3");
             budget -= palawan.getAirfare();
         } else {
             System.out.println("You don't have enough budget. kawawa ka naman </3");        
@@ -69,7 +72,8 @@ public class Me implements Tourist {
 
         // Define your visit
         if (Me.budget >= moon.getAirfare()) {
-            System.out.println("San ka punta? To the moon. Roadtrip broom! broom! skkrtt skrrt zoom! zoom! sa fake no room!.");
+            System.out.println("Welcome to the moon! roadtrip broom! broom!");
+            System.out.println("Enjoy your stay! <3");
                     budget -= moon.getAirfare();
         } else {
             System.out.println("You don't have enough budget. kawawa ka naman </3");  
@@ -84,7 +88,8 @@ public class Me implements Tourist {
 
         // Define your visit
         if (Me.budget >= launion.getAirfare()) {
-            System.out.println("Welcome to ELYU UWU!");
+            System.out.println("Welcome to La Union");
+            System.out.println("Enjoy your stay! <3");
             budget -= launion.getAirfare();
         } else {
             System.out.println("You don't have enough budget. kawawa ka naman </3");
@@ -99,7 +104,8 @@ public class Me implements Tourist {
 
         // Define your visit
         if (Me.budget >= tagaytay.getAirfare()) {
-            System.out.println("Welcome to Tagaytay! TARA TAGAY!");
+            System.out.println("Welcome to Tagaytay!");
+            System.out.println("Enjoy your stay! <3");
             budget -= tagaytay.getAirfare();
         } else {
             System.out.println("You don't have enough budget. kawawa ka naman </3");
